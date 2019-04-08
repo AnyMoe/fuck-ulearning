@@ -9,7 +9,7 @@
 在 ** console ** 粘贴以下内容：
 ```javascript
 var script = document.createElement('script');
-script.src = "https://hsmus.top/static/yxy.min.js";
+script.src = "https://hsmustard.github.io/youxueyuan/yxy.min.js";
 document.getElementsByTagName('head')[0].appendChild(script);
 ```
 
