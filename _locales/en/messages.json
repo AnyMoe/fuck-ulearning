@@ -1,0 +1,14 @@
+{
+    "description": {
+        "message": "Learning Aid For Ulearning"
+    },
+    "fillBlanks": {
+      "message": "Automatically Fill(Only Blanks)"
+    },
+    "showAnswer": {
+        "message": "Show Answer"
+    },
+    "addSpeed5x": {
+        "message": "5x speed"
+    }
+}

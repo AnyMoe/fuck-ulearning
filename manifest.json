@@ -1,0 +1,40 @@
+{
+  "name": "fuck-ulearning",
+  "version": "1.0.4",
+  "description": "__MSG_description__",
+  "manifest_version": 2,
+  "icons":
+	{
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "webRequest",
+    "https://www.ulearning.cn/",
+    "https://ua.ulearning.cn/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ua.ulearning.cn/learnCourse/*"
+      ],
+      "js": [
+        "jquery.min.js",
+        "yxy.min.js",
+        "scripts.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "defult_icon": "icon.png",
+    "default_title": "fuck-ulearning"
+  },
+  "default_locale": "en",
+  "homepage_url": "https://github.com/hsmustard/youxueyuan"
+}
