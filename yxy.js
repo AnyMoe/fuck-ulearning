@@ -1,4 +1,8 @@
-
+/**
+ * @author Mustard
+ * @dateTime 2019-04-09
+ * @version  1.0.1
+ */
 function removeDuplicatedItem(arr) {  //去掉重复的id
    for(var i = 0; i < arr.length-1; i++){
        for(var j = i+1; j < arr.length; j++){
