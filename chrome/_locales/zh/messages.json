@@ -1,0 +1,14 @@
+{
+    "description": {
+        "message": "优学院学习辅助"
+    },
+    "fillBlanks": {
+        "message": "自动填充填空题答案"
+    },
+    "showAnswer": {
+        "message": "显示答案"
+    },
+    "addSpeed5x": {
+        "message": "5倍速"
+    }
+}

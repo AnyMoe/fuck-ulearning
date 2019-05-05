@@ -1,0 +1,14 @@
+{
+    "description":{
+        "message":"优学院の研究援助"
+    },
+    "fillBlanks": {
+      "message": "自動的に塗りつぶす(空白を埋める)"
+    },
+    "showAnswer": {
+        "message": "回答を表示"
+    },
+    "addSpeed5x": {
+        "message": "5倍速"
+    }
+}
